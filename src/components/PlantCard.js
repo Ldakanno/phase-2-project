@@ -1,6 +1,6 @@
 const PlantCard = () => {
   return (
-    <div>PlantCard</div>
+    <div></div>
   )
 }
 

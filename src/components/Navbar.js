@@ -3,7 +3,12 @@ import {NavLink} from 'react-router-dom';
 const style= {
   width: "60%",
   margin: "5% 0 1%",
-  padding: "1em"
+  padding: "1em",
+  textDecoration: "none",
+  color: "black",
+  backgroundColor: "grey",
+  fontWeight: "bold",
+  verticalAlign: "center"
 }
 
 const Navbar = () => {
@@ -26,7 +31,7 @@ const Navbar = () => {
         }}
         exact
         style={style}
-        to="/"
+        to="/about"
       >About
       </NavLink>
       <NavLink
@@ -36,7 +41,7 @@ const Navbar = () => {
         }}
         exact
         style={style}
-        to="/"
+        to="/search"
       >Search
       </NavLink>
       <NavLink
@@ -46,7 +51,7 @@ const Navbar = () => {
         }}
         exact
         style={style}
-        to="/"
+        to="/plants/new"
       >Comment
       </NavLink>
     </div>

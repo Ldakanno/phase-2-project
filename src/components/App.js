@@ -7,6 +7,8 @@ import Navbar from './Navbar';
 import PlantCard from './PlantCard';
 import SearchForm from './SearchForm';
 import Home from './Home';
+import Comment from './Comment';
+
 
 function App() {
   return (
@@ -15,11 +17,15 @@ function App() {
         <Navbar />
         <Header />
         <Switch>
-          <Route path="/plants/search">
+          <Route path="/search">
             <SearchForm />
           </Route>
 
-          <Route path="/plants/about">
+          <Route path="/plants/new">
+            <Comment />
+          </Route>
+
+          <Route path="/about">
             <About />
           </Route>
 
