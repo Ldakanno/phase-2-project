@@ -1,5 +1,12 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import About from './About';
+import Footer from './Footer';
+import Header from './Header';
+import Navbar from './Navbar';
+import PlantCard from './PlantCard';
+import SearchForm from './SearchForm';
+import Home from './Home';
 
 function App() {
   return (
@@ -16,8 +23,8 @@ function App() {
             <About />
           </Route>
 
-          <Route path="/plants/home">
-            <PlantCard />
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </Router>
