@@ -1,5 +1,7 @@
-export default function PlantCard() {
+const PlantCard = () => {
   return (
     <div>PlantCard</div>
   )
 }
+
+export default PlantCard
