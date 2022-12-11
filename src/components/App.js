@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Header />
+        <Header greeting="Let's learn about aloe!" title="Aloe Plants"/>
         <Switch>
           <Route path="/search">
             <SearchForm />
