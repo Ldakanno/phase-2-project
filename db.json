@@ -1,0 +1,28 @@
+{
+    "plants": [
+        {
+            "id": 1,
+            "name": "Spiral Aloe",
+            "image": "https://www.monrovia.com/media/catalog/product/cache/e04ab064d507a8311b0c9a903817e129/r/e/rest_8_1_8116.jpeg",
+            "comments": []
+        }, 
+        {
+            "id": 2,
+            "name": "Aloe Vera",
+            "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/aloe-vera-plant-outside-jpg-1522875135.jpg?crop=1xw:1xh;center,top&resize=980:*",
+            "comments": []  
+        },
+        {
+            "id": 3,
+            "name": "Hedgehog Aloe",
+            "image": "https://worldofsucculents.com/wp-content/uploads/2013/04/Aloe-humilis1.jpg",
+            "comments": []
+        }, 
+        {
+            "id": 5,
+            "name": "Tiger Tooth Aloe",
+            "image": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTDe9I1ZS9yGRPYyRKrC3vrv7SB8ZrQjsXmab0BWPzMCWxlcWsfUUTNMFrEwMs2DnWVco-dbiFfmgMKQT4",
+            "comments": [] 
+        }
+    ]
+}
