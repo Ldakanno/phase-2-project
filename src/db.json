@@ -1,0 +1,95 @@
+{
+  "pets": [
+      {
+          "id":1,
+          "name": "Charlie",
+          "animal": "dog",
+          "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnationaltoday.com%2Finternational-corgi-day%2F&psig=AOvVaw2wsn2EQG0GSA0zA7rQ0QkD&ust=1631713113536000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCch5jL_vICFQAAAAAdAAAAABAD",
+          "age": 2,
+          "size": "small",
+          "sex": "male"
+      },
+      {
+          "id":2,
+          "name":"Buddy",
+          "animal":"dog",
+          "image":"https://www.newportharborvets.com/sites/default/files/styles/large/public/golden-retriever-dog-breed-info.jpg?itok=LraUUWYV",
+          "age": 1,
+          "size": "medium",
+          "sex": "male"
+      },
+      {
+          "id":3,
+          "name":"Daisy",
+          "animal":"cat",
+          "image":"https://cf.ltkcdn.net/cats/images/std-lg/259025-1200x773-gorgeous-grey-cat-breeds.webp",
+          "age": 4,
+          "size": "small",
+          "sex": "female"
+      },
+      {
+          "id":4,
+          "name":"Skye",
+          "animal":"snake",
+          "image":"https://www.petmd.com/sites/default/files/styles/article_image/public/what-to-do-if-snake-bites-293416040.gif?itok=TJQrPey_",
+          "age": 5,
+          "size": "large",
+          "sex": "female"
+      },
+      {
+          "id":5,
+          "name":"Winnie",
+          "animal":"bird",
+          "image":"https://images.unsplash.com/photo-1594524952992-0cddcede63dd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ja2F0b298ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+          "age": 2,
+          "size": "small",
+          "sex": "female"
+      },
+      {
+          "id":6,
+          "name":"Jeff",
+          "animal":"cat",
+          "image":"https://www.thesprucepets.com/thmb/s8CUS7z_zPB7CK3VYNReCeJRKwU=/3333x3333/smart/filters:no_upscale()/a-beautiful-fluffy-siamese-cat-with-blue-eyes-lies-on-the-windowsill-1032516376-ec8038b90e8e478785449d68fde25af7.jpg",
+          "age": 7,
+          "size": "small",
+          "sex": "male"
+      },
+      {
+          "id":7,
+          "name":"Thumper",
+          "animal":"bunny",
+          "image":"https://media.newyorker.com/photos/59096937019dfc3494ea1169/master/w_2560%2Cc_limit/Frazier-Bunny-Rabbits.jpg",
+          "age": 1,
+          "size": "small",
+          "sex": "male"
+
+      },
+      {
+          "id":8,
+          "name":"Bella",
+          "animal":"dog",
+          "image":"https://vetstreet.brightspotcdn.com/dims4/default/a0c30bb/2147483647/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fff%2F3691e0a75511e0a0d50050568d634f%2Ffile%2FGreat-Pyrenees-3-645mk062411.jpg",
+          "age": 5,
+          "size": "large",
+          "sex": "female"
+      },
+      {
+          "id":9,
+          "name":"Leo",
+          "animal":"cat",
+          "image":"https://s36537.pcdn.co/wp-content/uploads/2017/11/Mackerel-Tabby-cat.jpg.optimal.jpg",
+          "age": 3,
+          "size": "medium",
+          "sex": "male"
+      },
+      {
+          "id":10,
+          "name":"Bugs",
+          "animal":"bunny",
+          "image":"https://pbs.twimg.com/profile_images/447374371917922304/P4BzupWu.jpeg",
+          "age": 2,
+          "size": "small",
+          "sex": "male"
+      }
+  ]
+}
