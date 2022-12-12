@@ -1,6 +1,6 @@
 # AloePro
 
-AloePro is an informative plant web application inspired specifically by aloe plants. Users will find information about the plants and they will also see images of those plants. Users can also leave comments on the website. 
+AloePro is an informative plant web application inspired specifically by the aloe plant. Users will find information about the plant and they will also see an image of that plant. Users can also leave comments on the website. In the future, I plan on icorporating more aloe plants into this web application, but for now, it is focused on aloe vera. 
 
 This project was created to practice making fetch requests and display the core concepts of React that I am learning in my studies. 
 
@@ -15,11 +15,11 @@ This project was created to practice making fetch requests and display the core 
 ## Features
 ### What is expected: 
 
-- Users will be able to search an aloe plant and receive relevant information if that plant is in the database.
+- Users will be able to post a comment on the plant.
 
 - Users will see a display of a plant upon first visiting the site. 
 
-- Users will be able to navigate to information provided on the plants. 
+- Users will be able to navigate to information provided on the plant. 
 
 
 ## Requirements
