@@ -37,7 +37,8 @@ and
 ### This project was made possible thanks to the following for providing valuable resources.
 
 Plant information provided by: 
--https://www.monrovia.com/spiral-aloe.html (spiral aloe)
--https://www.almanac.com/plant/aloe-vera (aloe vera)
--https://plantaddicts.com/hedgehog-aloe/ (hedghog aloe) 
--https://www.succulentsandsunshine.com/types-of-succulents/aloe-juvenna-tiger-tooth-aloe/ (tiger tooth aloe)
+
+- https://www.monrovia.com/spiral-aloe.html (spiral aloe)
+- https://www.almanac.com/plant/aloe-vera (aloe vera)
+- https://plantaddicts.com/hedgehog-aloe/ (hedghog aloe) 
+- https://www.succulentsandsunshine.com/types-of-succulents/aloe-juvenna-tiger-tooth-aloe/ (tiger tooth aloe)
