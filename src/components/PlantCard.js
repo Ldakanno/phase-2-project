@@ -1,6 +1,8 @@
 const PlantCard = () => {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   )
 }
 
