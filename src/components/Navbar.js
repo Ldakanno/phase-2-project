@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <NavLink
         activeStyle={{
-          fontweight: "bolder",
+          fontWeight: "bolder",
           color: "red"
         }}
         exact
@@ -26,7 +26,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         activeStyle={{
-          fontweight: "bolder",
+          fontWeight: "bolder",
           color: "red"
         }}
         exact
@@ -36,7 +36,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         activeStyle={{
-          fontweight: "bolder",
+          fontWeight: "bolder",
           color: "red"
         }}
         exact
@@ -46,7 +46,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         activeStyle={{
-          fontweight: "bolder",
+          fontWeight: "bolder",
           color: "red"
         }}
         exact
