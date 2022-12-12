@@ -1,40 +1,68 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import About from './About';
-import Footer from './Footer';
-import Header from './Header';
-import Navbar from './Navbar';
-import PlantCard from './PlantCard';
-import SearchForm from './SearchForm';
-import Home from './Home';
-import Comment from './Comment';
 
+import { Route, Switch } from 'react-router-dom';
+
+import Header from './Header';
+import NewPetForm from './NewPetForm';
+import PetList from './PetList';
+import MyPets from './MyPets';
+import PetDetails from './PetDetails';
 
 function App() {
+  const [pets, setPets] = useState([]);
+  const [searchPet, setSearchPet] = useState('');
+  const [newPetInput, setNewPet] = useState(
+    {name: '', age: '', animal: '', image: '', size: '', sex: '', description: '' });
+  
+
+  useEffect(() => {
+    fetch(`http://localhost:3000/pets`)
+    .then(resp => resp.json())
+    .then(petArray => setPets(petArray))
+  },[]);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setNewPet(newPetInput)
+    fetch(`http://localhost:3000/pets`, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(newPetInput)})
+    .then(resp => resp.json())
+    .then(newPet => setPets([...pets, newPet]))
+    console.log(newPetInput)
+    setNewPet({name: '', age: '', animal: '', image: '', size: '', sex: '', description: '' });
+  };
+
+  function handleSearch(e) {
+    setSearchPet(e.target.value);
+  }
+
+  const petsCopy = [...pets];
+  const SearchPetArray = petsCopy.filter(pet => {
+    const type = pet.animal.toLowerCase();
+    return type.includes(searchPet.toLowerCase())
+  });
+
   return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Header greeting="Let's learn about aloe!" title="Aloe Plants"/>
+    <div className="app">
+      <Header searchPet={searchPet} 
+              handleSearch={handleSearch} 
+      />
+      <div className='bodyContent'>
+        <NewPetForm newPetInput={newPetInput} 
+                setNewPet={setNewPet}  
+                handleSubmit={handleSubmit} 
+        />
         <Switch>
-          <Route path="/search">
-            <SearchForm />
-          </Route>
-
-          <Route path="/plants/new">
-            <Comment />
-          </Route>
-
-          <Route path="/about">
-            <About />
-          </Route>
-
-          <Route path="/">
-            <Home />
+          <Route path='/pets/mine' component={MyPets} />
+          <Route path='/pets/:id' component={PetDetails} />
+          <Route path='/'>
+            <PetList pets={SearchPetArray}/>
           </Route>
         </Switch>
-      </Router>
-      <Footer />
+      </div>
     </div>
   );
 }
