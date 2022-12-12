@@ -2,7 +2,14 @@
 
 const Comment = () => {
   return (
-    <div></div>
+    <div>
+      <form style= {{margin: "3rem"}}>
+        <label>Comment:
+          <input type="text" name="comment" />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   )
 }
 
